@@ -56,10 +56,10 @@ void salvarProdutoPrintar(int valor) {
 
 void inserirProduto() {
 	int valor;
-	/* cout << "Insira a quantidade desejada para cadastrar: ";
+	cout << "Insira a quantidade desejada para cadastrar: ";
 	cin >> valor;
-	cout << endl << "=======================================" << endl; */
-	salvarProdutoPrintar(valor = 10);
+	cout << endl << "=======================================" << endl;
+	salvarProdutoPrintar(valor);
 }
 
 int main(int argc, char** argv) {
